@@ -2,6 +2,7 @@
 
 # For those with dynamic ip's that are too lazy/cheapo to use no-ip or similar services
 # Change email addresses, trigger from cron & receive an email if your ip has changed :)
+# ps: setup logrotate on the logfile for clean log handling
 
 
 #ifconfig.me sends back your ip if you hit them :-)
