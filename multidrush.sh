@@ -222,7 +222,7 @@ cat<<EOF
 | All done, please check your path by runnin 'echo \$PATH' as your regular user, if /usr/bin is inthere all is good.  |
 | Otherwise add                                                                                                       |
 |                                                                                                                     |
-|    PATH=/usr/bin/$PATH                                                                                              |
+|    PATH=$PATH:/usr/bin/                                                                                              |
 |                                                                                                                     |
 | to your .bashrc file, or add /usr/bin to your ~/.profile if your system uses it.                                    |
 |                                                                                                                     |
